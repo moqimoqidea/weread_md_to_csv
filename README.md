@@ -2,7 +2,7 @@
 
 ## 功能
 
-将固定 markdown 格式的转化为固定格式的 csv.
+将固定 markdown 格式的文档内容转化为固定格式的 csv.
 
 ## 前置依赖
 
@@ -12,7 +12,10 @@
 
 ```shell
 
-# 单个文件
+# 单个文件：仅指定来源文件
+python main.py source.md
+
+# 单个文件：指定来源文件与目标文件
 python main.py source.md target.csv
 
 # 文件夹
